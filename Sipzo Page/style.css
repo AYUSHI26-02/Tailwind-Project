@@ -1,0 +1,9 @@
+.clip-circle{
+    clip-path: circle(600px at right 800px);
+}
+
+@media (max-width: 640px) {
+    .clip-circle{
+        clip-path: circle(450px at right 850px);
+    }
+}
