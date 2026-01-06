@@ -62,12 +62,11 @@ The UI is modern, smooth, and optimized for **mobile, tablet, and desktop** scre
 
 ## Live Website
 
--  **Link:** https://generate-qr-code-text.netlify.app
+-  **Link:** [Live Demo](https://ayushi26-02.github.io/Tailwind-Project/Food%20Website/)
 
 ## Contact
 
 - **LinkedIn:** [Ayushi Patel](https://www.linkedin.com/in/ayushi-patel2602/) 
 - **GitHub:** [AYUSHI26-02](https://github.com/AYUSHI26-02) 
 
-If you like this project, don’t forget to **star the repository**!
-
+Thank you for exploring the burger Website project!
