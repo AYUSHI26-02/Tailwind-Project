@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
+
+@custom-variant dark (&:is([data-theme=dark], [data-theme=dark] *));
+
+@layer base {
+  html{
+    @apply scroll-smooth;
+  }
+  body{
+    @apply bg-blue-950 tracking-wider text-white;
+  }
+  section{
+    @apply pt-16 pb-4 px-20 md:pt-20;
+  }
+}
+
+@layer utilities {
+  .card__title,
+   .section__title {
+    @apply text-2xl font-bold uppercase lg:text-2xl;
+  }
+  .separator{
+    @apply w-28 h-[2px] bg-amber-300 my-5;
+  }
+    .font-oswald {
+    font-family: var(--font-oswald);
+  }
+
+  .font-dmsans {
+    font-family: var(--font-dmsans);
+  }
+
+  .paragraph{
+    @apply font-extralight leading-5;
+  }
+}
+
+.tabs_wrap ul li:hover,
+.tabs_wrap ul li:active {
+  @apply bg-amber-300 text-black;
+}
+
+/* ✅ Define keyframes directly */
+@keyframes move {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+}
+
+/* ✅ Add animation as a utility class (NOT in @theme) */
+@layer utilities {
+  .animate-movingY {
+    animation: move 3s linear infinite;
+  }
+}
+
+/* ✅ Font and container padding using CSS variables if needed */
+:root {
+  --font-oswald: 'Oswald', sans-serif;
+  --font-dmsans: 'DM Sans', sans-serif;
+
+  --container-padding: 1rem;
+  --container-padding-sm: 1.5rem;
+}
+
