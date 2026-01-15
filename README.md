@@ -1,10 +1,10 @@
-# Frontend Projects 
+# Frontend Projects (Tailwind CSS)
 
 [![GitHub contributors](https://img.shields.io/github/contributors/AYUSHI26-02/Tailwind-Project)](https://github.com/AYUSHI26-02/Tailwind-Project/graphs/contributors)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AYUSHI26-02/Tailwind-Project)](https://github.com/AYUSHI26-02/Tailwind-Project/commits/main)
 
-This repository contains multiple **frontend web development projects** built using **HTML, CSS, and JavaScript**.  
-Each project is designed to improve UI skills, DOM manipulation, API usage, and responsive design.
+This repository contains multiple **frontend web development projects** built using **Tailwind CSS**, along with **HTML and JavaScript**.  
+Each project is designed to improve **UI/UX skills**, **responsive design**, **DOM manipulation**, and **modern frontend practices** using a utility-first CSS approach.
 
 ## Projects List 📂
 
