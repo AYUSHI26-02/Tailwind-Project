@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sipzo Landing Page</title>
+    <link rel="icon" type="image/png" href="./Images/Yellow.png"> <!-- Favicon added -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../output.css">
+    <style>
+        .clip-circle {
+            clip-path: circle(600px at right 800px);
+        }
+
+        @media (max-width: 1024px) {
+            .clip-circle {
+                clip-path: circle(450px at right 700px);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .clip-circle {
+                clip-path: circle(350px at center 900px);
+            }
+        }
+    </style>
+    <!-- Font Awesome CDN -->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section
+        class="relative w-full min-h-screen py-16 sm:py-24 flex flex-col lg:flex-row justify-evenly items-center bg-white">
+
+        <!-- Background Circle -->
+        <div id="BackgroundCircle"
+            class="absolute top-0 left-0 w-full h-full bg-[#017143] transition-colors duration-500 clip-circle"></div>
+        </div>
+
+        <header class="absolute top-0 left-0 w-full px-16 py-5 flex justify-between items-center flex-col sm:flex-row">
+            <div class="logo">
+                <img src="./Images/logo.png" alt="logo" class="w-16">
+            </div>
+            <ul class="flex space-x-4 sm:space-x-10 text-md">
+                <li><a href="" class="text-gray-700 font-bold hover:text-[#017143]">Home</a></li>
+                <li><a href="" class="text-gray-700 font-bold hover:text-[#017143]">Menu</a></li>
+                <li><a href="" class="text-gray-700 font-bold hover:text-[#017143]">What's New</a></li>
+                <li><a href="" class="text-gray-700 font-bold hover:text-[#017143]">Contact</a></li>
+            </ul>
+        </header>
+
+        <!-- hero section -->
+        <div
+            class="flex flex-col md:flex-row justify-between items-center w-full px-4 space-y-10 lg:space-y-0 mt-10 lg:mt-0">
+            <!-- text box -->
+            <div class="max-w-max space-y-4 lg:space-x-6 px-12">
+                <h2 class="text-4xl lg:text-6xl font-bold text-gray-800">It's not just Coffee <br>
+                    It's <span class="text-[#017143] font-extrabold">Sipzo</span>
+                </h2>
+                <p class="text-gray-700 text-base lg:text-xl leading-relaxed tracking-wide">
+                    Discover the perfect blend of taste, aroma, and craftsmanship.
+                    Each cup of Starbucks coffee is a journey of flavor and experience.
+                    Indulge in a moment of pure bliss with every sip, crafted to awaken your senses and brighten your
+                    day.
+                </p>
+
+                <a href=""
+                    class="inline-block px-5 py-2 bg-[#017143] text-white text-md rounded-full shadow-md hover:bg-[#015c34] transition hover:translate-y-1 transition duration-300 ease-in-out">
+                    Learn More
+                </a>
+            </div>
+        </div>
+
+        <!-- image box -->
+        <div class="relative flex items-center justify-center mr-32">
+            <img src="./Images/Green.png" alt="Sipzo Coffee"
+                class="w-[930px] h-[450px] transition-transform duration-500 ease-in-out transform scale-100 opacity-100"
+                id="mainImage">
+        </div>
+
+        <!-- thumbnail -->
+        <ul class="flex space-x-5 lg:space-x-10 absolute bottom-12 left-1/2 transform -translate-x-1/2">
+            <li><img src="./Images/Green.png" alt="thumbnail" class="w-14 cursor-pointer thumbnail"
+                    data-color="#017143"></li>
+            <li><img src="./Images/Yellow.png" alt="thumbnail" class="w-14 cursor-pointer thumbnail"
+                    data-color="#FFF176"></li>
+            <li><img src="./Images/Pink.png" alt="thumbnail" class="w-14 cursor-pointer thumbnail" data-color="#C2185B">
+            </li>
+        </ul>
+
+        <!-- Social Links -->
+        <ul
+            class="flex flex-col justify-center space-y-3 absolute bottom-0 top-1/2 right-4 md:right-4 transform -translate-y-1/2 z-10">
+            <li><img src="https://cdn-icons-png.flaticon.com/128/4494/4494479.png" alt="Facebook"
+                    class="w-6 md:w-8 h-6 md:h-8"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/15713/15713420.png" alt="Instagram"
+                    class="w-6 md:w-8 h-6 md:h-8"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Twitter"
+                    class="w-6 md:w-8 h-6 md:h-8"></li>
+        </ul>
+    </section>
+</body>
+
+</html>

@@ -27,6 +27,11 @@ Each project is designed to improve **UI/UX skills**, **responsive design**, **D
       <td>Landing Page</td>
       <td align="center"><a href="https://ayushi26-02.github.io/Tailwind-Project/Landing%20Page" target="_blank">Live Demo</a></td>
     </tr>
+     <tr>
+      <td align="center">2</td>
+      <td>Sipzo Landing Page</td>
+      <td align="center"><a href="https://ayushi26-02.github.io/Tailwind-Project/Sipzo%20Page" target="_blank">Live Demo</a></td>
+    </tr>
   </tbody>
 </table>
 
