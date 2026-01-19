@@ -44,8 +44,7 @@ This project is suitable for:
 
 ## Live Website
 
-- 🔗 **Live Demo:**  
-  https://ayushi26-02.github.io/Tailwind-Project/Sipzo%20Page
+- 🔗 **Live Demo:** https://ayushi26-02.github.io/Tailwind-Project/Sipzo%20Page
 
 ## Contact
 
